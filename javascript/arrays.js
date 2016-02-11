@@ -63,7 +63,7 @@ function buildThumbnails()
 	for(var i=0; i < imageListA.length; i++)
 	{
 		//concatenation assignment operator..
-		output += '<img src="' + imageListA[i] + '" />';
+	  output += '<img src="' + imageListA[i] + '" onclick="addToCart(' + i +')"/>';
 	}
 	
 	for(var j=0; j < imageListB.length; j++)
@@ -99,4 +99,8 @@ window.onload = function()
 
 var purchasedImages = [];
 
-myThum
+function addToCart(item) {
+  //alert(item);
+  imageListA.splice(item, 1);
+  buildThumbnails();
+}
