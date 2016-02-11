@@ -49,44 +49,6 @@ imageListC[9] = "images/watercolor/thumbs/artwork_10.jpg";
 
 
 
-//create the buildThumbnail function
-//function buildThumbnails()
-//{
-//	//hook onto the thumbs div
-//	var thumbsDiv = document.getElementById("thumbs");
-	
-//	//create an output variable
-//	var output = "";
-//	//first part: counter (we set up 0 to start counting the loop)
-//	//second part: condition, (the loop will keep looping as long as the condition is true)
-//	//third part: incrementor - adds one to the counter AFTER the code is executed in the brackets
-//	for(var i=0; i < imageListA.length; i++)
-//	{
-//		//concatenation assignment operator..
-//	  output += '<img src="' + imageListA[i] + '" />';
-//	}
-	
-//	for(var j=0; j < imageListB.length; j++)
-//	{
-//		//concatenation assignment operator..
-//		output += '<img src="' + imageListB[j] + '" />';
-//	}
-//// 	
-//	for(var k=0; k < imageListC.length; k++)
-//	{
-//		//concatenation assignment operator..
-//		output += '<img src="' + imageListC[k] + '" />';
-//	}
-//	thumbsDiv.innerHTML = output;
-//	// thumbsDiv.innerHTML = 
-//	// '<img src="' + imageList[0] + '" />' + 
-//	// '<img src="' + imageList[1] + '" />' +
-//	// '<img src="' + imageList[2] + '" />' +
-//	// '<img src="' + imageList[3] + '" />' +	
-//	// '<img src="' + imageList[4] + '" />'
-//  // ;
-
-
 //}
 console.log("imageListA: " + imageListA.length);
 console.log("imageListB: " + imageListB.length);
